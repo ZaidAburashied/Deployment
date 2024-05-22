@@ -1,0 +1,6 @@
+# Build the Docker image
+docker build -t streamlit-app .
+
+# run streamlit on docker using cmd 
+docker run -p 8501:8501 streamlit-app
+http://localhost:8501/
